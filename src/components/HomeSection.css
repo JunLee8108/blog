@@ -1,0 +1,72 @@
+.home-top-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 92.5vh;
+}
+
+.home-top-container img {
+    width: 50%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.home-top-container h1 {
+    letter-spacing: 3px;
+}
+
+.home-top-container h4 {
+    color: grey;
+}
+
+.home-top-container button {
+    margin: 5px;
+    width: 120px;
+    height: 55px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.portfolio-button {
+    background-color: #FF971A;
+}
+
+.resume-button {
+    background-color: #779ECB;
+}
+
+.home-top-left {
+    width: 100%;
+}
+
+.home-top-profile {
+    width: 100%;
+}
+
+.home-top-profile p {
+    line-height: 40px;
+}
+
+.home-top-right {
+    width: 100%;
+}
+
+.home-middle-container {
+    height: 100vh;
+    background: url(../assets/pexels-andrew-neel-8960464.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(90%) saturate(200%) contrast(50%);
+}
+
+@media screen and (max-width: 767px) {
+    .home-top-container {
+        flex-wrap: wrap;
+    }
+}
+
